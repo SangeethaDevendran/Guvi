@@ -1,6 +1,4 @@
-R=int(input())
-S=int(input())
-T=int(input())
+R,S,T=map(int,input().split())
 if(R > S and R > T):
   print(R)
 if(S > R and S > T):
