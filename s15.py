@@ -1,10 +1,10 @@
-LAR1=int(input())
-LAR2=int(input())
-LAR3=int(input())
-if(LAR1 > LAR2 and LAR1 > LAR3):
-  print(LAR1)
-if(LAR2 > LAR1 and LAR2 > LAR3):
-  print(LAR2)
+R=int(input())
+S=int(input())
+T=int(input())
+if(R > S and R > T):
+  print(R)
+if(S > R and S > T):
+  print(S)
 else:
-  print(LAR3)
+  print(T)
 
