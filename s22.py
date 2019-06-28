@@ -1,4 +1,4 @@
-check=int(input())
+check=input()
 if(check==check[::-1]):
   print("yes")
 else:
