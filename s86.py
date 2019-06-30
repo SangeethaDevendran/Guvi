@@ -5,4 +5,4 @@ if(cha>1):
       print("yes")
       break
   else:
-  print("no")
+    print("no")
