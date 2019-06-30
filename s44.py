@@ -1,2 +1,2 @@
 ch=input()
-print(fi.count(".")+1)
+print(ch.count(".")+1)
