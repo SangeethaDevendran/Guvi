@@ -1,6 +1,6 @@
 ch=input()
-for i in range(o,len(ch)):
+for i in range(0,len(ch)):
   if(ch[i].isalpha() and ch[i].isdigit()):
-    print("Yes")
+    print("No")
 else:
-  print("No")
+  print("Yes")
