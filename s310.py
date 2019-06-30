@@ -1,5 +1,5 @@
 ch,va=map(int,input().split())
 st,fi=map(int,input().split())
 huy=abs(ch-st)
-guy=abs(v-fi)
+guy=abs(va-fi)
 print(huy,guy)
