@@ -1,6 +1,6 @@
-check=int(input())
-for i in range(2,check):
-  if(check%i==0):
+source=int(input())
+for p in range(2,source):
+  if(source%p==0):
     print("no")
     break
 else:
