@@ -1,4 +1,4 @@
-from datetime import dtetime
+from datetime import datetime
 first=input()
 second=input()
 format="%H:%M"
