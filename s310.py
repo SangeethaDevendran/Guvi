@@ -1,5 +1,6 @@
-check,valid=int(input().split())
-source,final=int(input().split())
-titi=abs(check-source)
-fitu=abs(valid-final)
-print(titu,fitu)
+from datetime import dtetime
+first=input()
+second=input()
+format="%H:%M"
+time=datetime.strptime(first,format)-datetime.strptime(second,format)
+print(time)
