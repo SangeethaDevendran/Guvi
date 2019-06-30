@@ -1,6 +1,6 @@
 cha=int(input())
 if(cha>1):
-  for p in range(2,cha/2):
+  for p in range(2,cha):
     if(cha%p==0):
       print("no")
       break
