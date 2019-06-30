@@ -1,5 +1,5 @@
-ch=int(input())
-if(ch%2==0):
-  print(ch)
+cha=int(input())
+if(cha%2==0):
+  print(cha)
 else:
-  print(ch-1)
+  print(cha-1)
