@@ -3,8 +3,8 @@ nilu=len(str(check))
 feet=0
 foot=check
 while(foot!=0):
-  feet+=((foot%10)**1)
-  foot//=10
+  feet=feet+((foot%10)**1)
+  foot=foot//10
 if(feet==check):
   print("yes")
 else:
