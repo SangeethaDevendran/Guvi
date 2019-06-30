@@ -1,11 +1,11 @@
 check=int(input())
-nilu=len(str(check))
-feet=0
+titu=0
 foot=check
-while(foot!=0):
-  feet=feet+((foot%10)**1)
+while(foot>0):
+  feet=foot%10
+  titu=titu+(feet**3)
   foot=foot//10
-if(feet==check):
+if(check==titu):
   print("yes")
 else:
   print("no")
