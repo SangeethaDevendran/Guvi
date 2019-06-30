@@ -1,2 +1,3 @@
-chucks=int(input())
-print(len(chucks))
+sut=input()
+satu=int(sut)
+print(len(satu))
