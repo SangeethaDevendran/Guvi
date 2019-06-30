@@ -1,3 +1,3 @@
-z=int(input())
-ch=list(map(int,input().split()[:z]))
-print(max(ch))
+ch=list(map(int,input().split()))
+sa=max(ch)
+print(sa)
