@@ -1,2 +1,2 @@
-ch=int(input())
-print(len(ch))
+chucks=int(input())
+print(len(chucks))
