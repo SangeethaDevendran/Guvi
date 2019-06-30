@@ -1,0 +1,5 @@
+check,valid=int(input().split())
+source,final=int(input().split())
+titi=abs(check-source)
+fitu=abs(valid-final)
+print(titu,fitu)
