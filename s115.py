@@ -1,2 +1,2 @@
-cha,che=map(int,input().split())
+cha,che=input().split()
 print(cha+che)
