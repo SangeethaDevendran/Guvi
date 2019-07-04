@@ -1,2 +1,3 @@
 cha,cho,che=map(int,input().split())
-print(floor((cha*cho*che)100))
+sha=(cha*cho*che)/100
+print(int(sha))
