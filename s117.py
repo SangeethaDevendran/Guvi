@@ -1,2 +1,3 @@
+import math
 cha,che,cho=map(int,input().split())
-print((cha*che)/cho)
+print(math.floor((cha*che)/cho))
